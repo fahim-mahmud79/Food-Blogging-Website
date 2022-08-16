@@ -37,6 +37,20 @@ header{
     color: black;
 }
 
+/* trying hover effect */ 
+.nav-items ul li a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #3C7D36;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+.nav-items ul li a:hover::after{
+    width: 100%;
+}
+
 /* hero css starts  */
 .hero{
     display: flex;
