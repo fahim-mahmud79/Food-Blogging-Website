@@ -108,8 +108,7 @@ header{
 
 .cards:hover{
     box-shadow: 2px 26px 18px 4px rgba(147,127,127,0.54);
-    cursor: pointer; 
-
+    cursor: pointer;
 }
 
 .cards h2{
