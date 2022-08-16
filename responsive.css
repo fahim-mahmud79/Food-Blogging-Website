@@ -1,5 +1,8 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
     .logo img{
         margin-left: 20px;
     }
@@ -38,7 +41,12 @@
     }
 
     /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
+    .bx{
+        display: block; 
+        margin-right: 20px; 
+        cursor: pointer;
+    }
     .nav-items{
         display: none;
     }
