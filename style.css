@@ -103,6 +103,13 @@ header{
     padding: 30px;
     background-color: #E1EAE0;
     border-radius: 4px;
+    transition: 0.8s;
+}
+
+.cards:hover{
+    box-shadow: 2px 26px 18px 4px rgba(147,127,127,0.54);
+    cursor: pointer; 
+
 }
 
 .cards h2{
