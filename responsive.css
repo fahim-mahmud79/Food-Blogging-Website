@@ -10,7 +10,8 @@
         display: none;
     }
     .hero-left p{
-        margin: 100px 20px;
+        margin: 100px 22%;
+        font-size: 30px;
     }
     .main-cards{
         display: grid;
@@ -89,14 +90,4 @@
     .div1 p{
         text-align: center;
     }
-
-
-
-
-
-
-
-
-
-
 }

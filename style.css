@@ -69,13 +69,16 @@ header{
     z-index: 99;
 }
 .hero-left p{
-    max-width: 100%;
+    width: 60%;
     text-align: center;
     padding: 20px 0;
-    margin: 100px -70px 100px 200px;
+    margin: 100px -70px 100px 500px;
+    /* margin: 12% 10% 12% 50%; */
     background-color: white;
     color: #3A3A3A;
     font-weight: 700;
+    border-radius: 2px;
+
 }
 .hero-right img{
     width: 100%;
